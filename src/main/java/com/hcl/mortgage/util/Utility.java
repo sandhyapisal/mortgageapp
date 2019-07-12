@@ -7,10 +7,6 @@ import java.util.Date;
 
 public class Utility {
 	public static int getAge(Date dob) {
-		/*
-		 * String s = "1994/06/23"; SimpleDateFormat sdf = new
-		 * SimpleDateFormat("yyyy/MM/dd"); Date d = sdf.parse(s);
-		 */
 		  Calendar c = Calendar.getInstance();
 		  c.setTime(dob);
 		  int year = c.get(Calendar.YEAR);
