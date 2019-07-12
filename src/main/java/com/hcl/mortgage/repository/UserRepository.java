@@ -6,5 +6,5 @@ import com.hcl.mortgage.entity.User;
 
 public interface UserRepository extends JpaRepository<User, Long>{
 	
-	//List<User> findByIdAndPassword(Long uid, String passwd);
+	
 }

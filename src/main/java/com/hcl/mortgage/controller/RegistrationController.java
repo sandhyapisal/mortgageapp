@@ -16,6 +16,10 @@ public class RegistrationController {
 	@Autowired
 	RegistrationService registrationSeirvice;
 	
+	/**
+	 * This method is used to register user
+	 * @param user This is user details
+	 */
 	@PostMapping("/registerUser")
 	public void addUser(@RequestBody User user){
 		

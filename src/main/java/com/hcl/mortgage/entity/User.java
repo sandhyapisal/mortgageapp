@@ -9,19 +9,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-/*
- * User Name
-		Phone Number
-		DOB
-		Emila
-		Gender
-		PAN
-		Salary
-		Property Type
-		Property Address
-		Property Pin code
-		Property area size
- */
 @Entity
 @Table(name = "user")
 public class User {

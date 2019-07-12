@@ -12,6 +12,10 @@ public class RegistrationService {
 	@Autowired
 	UserRepository userRepository;
 	
+	/**
+	 * This method is used to register user
+	 * @param user This is user details
+	 */
 	public void registerUser(User user) {
 		userRepository.save(user);
 	}
